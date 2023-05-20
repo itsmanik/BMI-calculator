@@ -1,13 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BMI Caluclator</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>BMI Calculator</h1>
+    <main>
+      <div class="weight">
+        <label for="weight">Enter your weight: </label>
+        <input
+          type="text"
+          name="weight"
+          id="weight"
+          placeholder="in kilograms"
+        />
+      </div>
+      <div class="height">
+        <label for="height">Enter your height: </label>
+        <input
+          type="text"
+          name="height"
+          id="height"
+          placeholder="in centimeters"
+        />
+      </div>
+      <button>Calculate</button>
+      <p class="BMIResult">
+        Your BMI is <span class="bmi">___</span> and falls within the category
+        of <span class="category">___</span>
+      </p>
+      <p class="info">
+        If your BMI is less than 18.5, it falls within the underweight range. If
+        your BMI is 18.5 to 24.9, it falls within the Healthy Weight range. If
+        your BMI is 25.0 to 29.9, it falls within the overweight range. If your
+        BMI is 30.0 or higher, it falls within the obese range.
+      </p>
+    </main>
+  </body>
 </html>

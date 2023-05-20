@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 65%;
+}
+
+body {
+  background-color: #f5e2e2;
+  font-family: "Oswald", sans-serif;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+h1 {
+  color: #025464;
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 4.8rem;
+  margin-bottom: 5rem;
+  font-weight: normal;
+}
+
+main {
+  background-color: white;
+  box-shadow: 8px 12px 28px -11px rgba(0, 0, 0, 0.35);
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 3rem;
+}
+
+label {
+  font-size: 2.1rem;
+}
+
+input:focus,
+input:active {
+  outline: 2px solid #025464;
+}
+
+input {
+  border: none;
+  font-family: oswald;
+  background-color: #f5e2e2;
+}
+
+.weight,
+.height {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.weight input,
+.height input {
+  margin-left: 2rem;
+  flex-grow: 1;
+  padding: 0.8rem;
+}
+
+button {
+  padding: 0.7rem 2.5rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: #025464;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  font-family: oswald;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  display: block;
+}
+
+button:hover {
+    background-color: #002f39;
+}
+
+.BMIResult {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.bmi,
+.category {
+  color: green;
+}
